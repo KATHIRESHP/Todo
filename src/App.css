@@ -1,0 +1,135 @@
+
+body{
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+}
+.Project-title
+{
+  text-align: center;
+}
+.todo-wrapper
+{
+    background-color: rgb(46, 48, 49);
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding: 2%;
+    margin-top: 3%;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0px 0px 30px #434343;
+}
+.todo-input
+{
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px grey;
+  align-items: center;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+.input-item
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+}
+.input-item label{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.input-item input{
+  padding: 8px;
+  border: none;
+  width: 250px;
+}
+.input-item input:focus{
+  outline: 2px solid rgb(0, 230, 122);
+}
+.primaryBtn
+{
+  background-color: rgb(0, 230, 122);
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+  margin-top: 25px;
+  padding: 10px;
+  width: 60px;
+  cursor: pointer;
+}
+.primaryBtn:hover
+{
+  background-color: rgb(15, 144, 84);
+}
+.secondaryBtn
+{
+  background-color: rgb(59, 59, 59);
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+  margin-top: 25px;
+  padding: 10px;
+  width: fit-content;
+  cursor: pointer;
+}
+.active
+{
+  background-color: #02ff28;
+}
+.todo-list
+{
+  display: flex;
+  flex-direction: column;
+
+}
+.btn-area
+{
+  margin-bottom: 10px;
+}
+.todo-list-item
+{
+  background-color: #544f4f;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.todo-list-item h3{
+  font-size: 25px;
+  color: #02ff28;
+  font-weight: bold;
+  margin: 0%;
+}
+.todo-list-item p{
+  font: 10px;
+  color: #e1f4e7;
+  margin-left: 8px;
+}
+.first-half
+{
+  align-items: center;
+}
+.icon
+{
+  font-size: 35px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.icon:hover
+{
+  color: #ff0000;
+}
+.check-icon
+{
+  margin-left: 8px;
+  font-size: 30px;
+    color:#02ff28;
+}
+.check-icon:hover{
+  font-size: 35px;
+}
